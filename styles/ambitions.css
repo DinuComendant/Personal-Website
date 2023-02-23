@@ -1,0 +1,54 @@
+.divbar {
+    margin-bottom: 3%;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index:-1;
+}
+
+#internet {
+    margin-top:5%;
+    background-color:rgba(17, 17, 17, 0.99);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#internet h1 {
+    margin: 10% 7% 0 7%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#internet p {
+    margin: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align:justify;
+}
+
+.white {
+    color: aliceblue;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color:rgb(52, 133, 209)
+}
+
+@media (max-width:768px) {
+   #internet {
+    max-width: 100%;
+   }
+}

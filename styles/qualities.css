@@ -1,0 +1,171 @@
+.body-feed-skills {
+    margin: 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#design-content-skill {
+    border: 1px solid black;
+}
+.column-skills {
+    border: 2px solid black;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column-skills div {
+    padding: 3%;
+}
+
+#code-text-skill {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-skill {
+    display: flex;
+    max-width: 100%;
+}
+
+#second-content-skill {
+    background-color: #000f1b;
+    border: 1px solid aliceblue;
+}
+.line-code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#skill-code {
+    width: 40%;
+    height: auto;
+    background-color: #000f1b;
+}
+
+#skill-video {
+    width: 50%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    padding-left: 20px;
+}
+
+#first-title-skill {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#first-content-skill {
+    padding-bottom: 3%;
+    border: 1px solid black;
+}
+
+#second-title-skill {
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+#third-title-skill {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+#second-text-skill {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.text-skill {
+    display: flex;
+    flex: 1;
+}
+
+.second-title {
+    color: aliceblue;
+}
+
+#second-column-skills {
+    background-color: #001623;
+}
+
+#code {
+    border: 1px solid blue;
+    max-width: 100%;
+    font-size: 2vw;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    
+}
+
+#code-0 {
+    color: aliceblue;
+}
+
+#code-1 {
+    color: aliceblue;
+    padding-left: 15px;
+}
+#code-2 {
+    color: aliceblue;
+    padding-left: 30px;
+}
+#code-3 {
+    color: aliceblue;
+    padding-left: 15px;
+}
+#code-4 {
+    color: aliceblue;
+}
+#code-5 {
+    color: aliceblue;
+}
+
+#design-skill {
+    width: 45%;
+    height: 80vh;
+}
+
+.swiper {
+    width: 80%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-slide img {
+    width:80%;
+    margin: 0;
+}
+
+#design-skill-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    padding-top: 5%;
+}
+
+
+@media (max-width: 768px) {
+    .body-feed-skills {
+        display: block;
+    }
+
+    .content-skill {
+        display: block;
+    }
+
+    #skill-code {
+        width: 94%;
+    }
+
+    #skill-video {
+        width: 83%;
+    }
+
+    #design-skill {
+        width: 80%;
+    }
+    
+}

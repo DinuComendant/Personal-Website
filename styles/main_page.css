@@ -1,0 +1,45 @@
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10%
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius:50%;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    border: 3px solid black;
+    animation: pulse 3s ease infinite;
+}
+
+p {
+    text-transform: uppercase;
+    margin-top: 10%;
+}
