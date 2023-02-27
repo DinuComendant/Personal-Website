@@ -19,6 +19,7 @@
         <div class="top">
             <h1 class="heading">WHAT I AM GOOD AT <br>(OR SO I THINK)</h1>
         </div>
+        <!-- NAVBAR -->
         <div class="dropdown">
             <button>Menu &#9776;</button>
             <div class="dropdown-content">
@@ -29,7 +30,8 @@
               <a href="ambitions.html">MY AMBITIONS</a>
               <a href="contact.html">CONTACT INFO</a>
             </div>
-          </div>
+        </div>
+        <!-- BODY FEED -->
         <div class="body-feed-skills">
 
             <div class="column-skills">
@@ -147,15 +149,15 @@ In short, programming has been my inspiration because it has allowed me to not o
 
             function typeTextInElements(arr, targetElements, delay) {
             let i = 0;
-            function typeNextElement() {
-                if (i < arr.length) {
-                const text = arr[i];
-                const elementId = targetElements[i];
-                typeTextInElement(text, elementId, delay);
-                i++;
-                setTimeout(typeNextElement, text.length * delay); 
+                function typeNextElement() {
+                    if (i < arr.length) {
+                    const text = arr[i];
+                    const elementId = targetElements[i];
+                    typeTextInElement(text, elementId, delay);
+                    i++;
+                    setTimeout(typeNextElement, text.length * delay); 
+                    }
                 }
-            }
             typeNextElement();
             }
 
